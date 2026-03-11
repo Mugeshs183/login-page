@@ -1,0 +1,8 @@
+git config --global user.name "Mugesh"
+git config --global user.email "cjsparrow976@"gmail.com"
+
+git init --> To create a repository
+git status --> To see the status of git like is there is any file in the repository folder
+git add . --> To add all files in the folder
+git commit -m "first version of my website" --> To save a code after committing a changes
+git log --> To see the log of  commits that we made

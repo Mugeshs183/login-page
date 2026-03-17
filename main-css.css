@@ -1,5 +1,6 @@
 
 body{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items:center;
@@ -17,7 +18,7 @@ body{
 	max-width: 400px;
 .links{
 	text-decoration: none;
-	color: #028797;
+	color: #0066ff;
 	font-size: 14px;
 }
 h1{
@@ -28,6 +29,7 @@ h1{
 .subtitle{
 	margin-bottom: 30px;
 	color: #333;
+	font-size: 14px;
 }
 .input-group{
 	margin-bottom: 20px;
@@ -70,4 +72,26 @@ input[type="password"]{
 }
 .sign-in-btn:hover {
 	background-color: #0052cc;
+}
+.sign-in-with-google{
+	width: 100%;
+	padding: 10px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	font-size: 14px;
+	cursor: pointer;
+	color: #333;
+}
+.sign-in-with-google img {
+	width: 18px;
+}
+#forgot-password{
+	display: block;
+	text-align: left;
+	margin-top: 20px;
 }

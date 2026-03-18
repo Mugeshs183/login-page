@@ -1,0 +1,87 @@
+
+html, body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	background-color: #F4F7F9;
+	font-family: sans-serif;
+	font-weight: 50;
+
+}
+
+.main-card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+	height: 80%;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+
+.image-card {
+	width: 50%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 5%;
+	margin-right: 10%;
+	margin-left: 10%;
+
+}
+
+
+.login-card {
+	width: 50%;
+	height: 80%;
+	margin-right: 10%;
+}
+
+.image-card img {
+	width: 80%;
+	height: 100%;
+	margin-right:10%;
+}
+
+
+.image-card a {
+	color: black;
+	margin-right:10%;
+}
+.name input, .password input {
+	width: 100%;
+	padding: 3%;
+	font: 16px;
+	margin-bottom: 3%;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	outline: none;
+}
+.remember{
+	margin-top: 4%;
+	margin-bottom: 16%;
+}
+.btn-log-in{
+	padding: 10px 25px 10px 25px;
+	background-color: #6DADE3;
+	color: white;
+	border: none;
+	border-radius: 2px;
+}
+.other-login{
+	margin-top: 70px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+
+}
+.other-login img{
+	width: 30px;
+	height: 30px;
+}
